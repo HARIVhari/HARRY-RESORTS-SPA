@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING</title>
+    <link rel="stylesheet" href="booking.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="reservations">
+        <h1 class="heading">BOOK NOW</h1>
+        <form action="">
+            <div class="container">
+                <div class="box">
+                    <p>Name<span>*</span></p>
+                    <input type="text" class="input" placeholder="name">
+                </div>
+
+                <div class="box">
+                    <p>First name<span>*</span></p>
+                    <input type="text" class="input" placeholder="first name">
+                </div>
+
+                <div class="box">
+                    <p>Email<span>*</span></p>
+                    <input type="text" class="input" placeholder="your email">
+                </div>
+
+                <div class="box">
+                    <p>check in<span>*</span></p>
+                    <input type="date" class="input">
+                </div>
+
+                <div class="box">
+                    <p>check out<span>*</span></p>
+                    <input type="date" class="input">
+                </div>
+                
+                <div class="box">
+                    <p>adults<span>*</span></p>
+                    <select name="adults" class="input">
+                        <option value="1">1 adults</option>
+                        <option value="2">2 adults</option>
+                        <option value="3">3 adults</option>
+                        <option value="4">4 adults</option>
+                        <option value="5">5 adults</option>
+                        <option value="6">6 adults</option>
+                    </select>
+                </div>
+                
+                <div class="box">
+                    <p>children<span>*</span></p>
+                    <select name="children" class="input">
+                        <option value="1">1 child</option>
+                        <option value="2">2 child</option>
+                        <option value="3">3 child</option>
+                        <option value="4">4 child</option>
+                        <option value="5">5 child</option>
+                        <option value="6">6 child</option>
+                    </select>
+                </div>
+                
+                <div class="box">
+                    <p>rooms</p><span>*</span></p>
+                    <select name="rooms" class="input">
+                        <option value="1">1 rooms</option>
+                        <option value="2">2 rooms</option>
+                        <option value="3">3 rooms</option>
+                        <option value="4">4 rooms</option>
+                        <option value="5">5 rooms</option>
+                        <option value="6">6 rooms</option>
+                    </select>
+            </div>
+            <div class="box">
+                <p>room type</p><span>*</span></p>
+                <select name="type" class="input">
+                    <option value="1">Deluxe Lake View Room</option>
+                    <option value="2">Deluxe Ocean View Room (king)</option>
+                    <option value="3">Premier Balcony Room</option>
+                    <option value="4">Apartment View Room</option>
+                    <option value="5">Horizon Club Ocean View Room</option>
+                    <option value="6">Grand Suite Room</option>
+                </select>
+            </div>
+            <div>
+                <input type="submit" value="check availability" class="btn">
+            </div>
+
+
+        </form>
+
+    </section>
+</body>
+</html>
